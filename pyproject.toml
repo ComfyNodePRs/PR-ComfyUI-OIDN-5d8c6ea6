@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-oidn"
+description = "ComyUI wrapper for Intel OIDN image denoising"
+version = "0.0.1"
+license = {file = "LICENSE.md"}
+dependencies = ["torch>=1.4.0", "torchvision>=0.5.0", "oidn>=0.2"]
+
+[project.urls]
+Repository = "https://github.com/Anze-/ComfyUI-OIDN"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "anze"
+DisplayName = "ComfyUI-OIDN"
+Icon = ""
